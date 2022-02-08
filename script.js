@@ -57,22 +57,24 @@ window.onload = function(){
   }
   function keyPush(event){
     switch (event.keyCode){
-      case 37: //left
+        k
+      //esquerda
+      case 37: 
         vx = -vel
         vy = 0
         break
-
-      case 38: //up
+      //cima
+      case 38: 
         vx = 0
         vy = -vel
         break
-
-      case 39: //right
+      //direita
+      case 39: 
         vx = vel
         vy = 0
         break
-
-       case 40: //down
+       //baixo
+       case 40: 
         vx = 0
         vy = vel
         break
