@@ -49,16 +49,16 @@ window.onload = function() {
       ctx.fillRect(trail[i].x * tp, trail[i].y * tp, tp - 1, tp - 1)
       if(vx != 0 || vy != 0){
         if (trail[i].x == px && trail[i].y == py) {
-        death.play()
-        console.log(text)
-        text.innerHTML = 'GameOver!'
-        score.innerHTML = 'Score: ' + (tail - 5)
-        botao.innerHTML = 'Restart'
-        drop.style.display = 'flex'
-        vx = vy = 0
-        px = py = 10
-        ay = ax = 15
-        tail = 5
+          death.play()
+          console.log(text)
+          text.innerHTML = 'GameOver!'
+          score.innerHTML = 'Score: ' + (tail - 5)
+          botao.innerHTML = 'Restart'
+          drop.style.display = 'flex'
+          vx = vy = 0
+          px = py = 10
+          ay = ax = 15
+          tail = 5
         }
       }
 
