@@ -46,7 +46,7 @@ window.onload = function() {
     //cobra
     ctx.fillStyle = "#04B45F"
     for (var i = 0; i < trail.length; i++) {
-      ctx.fillRect(trail[i].x * tp, trail[i].y * tp, tp - 1, tp - 1)
+      ctx.fillRect(trail[i].x * tp, trail[i].y * tp, tp, tp)
       if(vx != 0 || vy != 0){
         if (trail[i].x == px && trail[i].y == py) {
           death.play()
