@@ -44,7 +44,7 @@ window.onload = function() {
     ctx.fillStyle = "red"
     ctx.fillRect(ax * tp, ay * tp, tp, tp)
     //cobra
-    ctx.fillStyle = "#00FF40"
+    ctx.fillStyle = "#04B45F"
     for (var i = 0; i < trail.length; i++) {
       ctx.fillRect(trail[i].x * tp, trail[i].y * tp, tp - 1, tp - 1)
       if(vx != 0 || vy != 0){
