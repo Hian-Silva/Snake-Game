@@ -50,7 +50,6 @@ window.onload = function() {
       if(vx != 0 || vy != 0){
         if (trail[i].x == px && trail[i].y == py) {
           death.play()
-          console.log(text)
           text.innerHTML = 'GameOver!'
           score.innerHTML = 'Score: ' + (tail - 5)
           botao.innerHTML = 'Restart'
